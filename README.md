@@ -1,20 +1,29 @@
 # Personal Online Resume
 
-My very first capstone project: a personal online resume built exclusively with vanilla HTML5. It presents my background, experience, skills, certifications, and contact information in a simple, single-page format.
+A single-page personal resume built with vanilla HTML5. It presents my background, work experience, skills, certifications, activities, and contact information.
 
-The contact form uses [Formspree](https://formspree.io/) to handle submissions and forward messages to my email.
+**Live demo:** [View my online resume](https://herveprba.github.io/online-resume/)
 
 ## Features
 
 - Single-page resume with navigation links to each section
-- Personal information, summary, education, work experience, skills, certifications, activities, strengths, languages, and social links
+- Personal information, summary, education, and work experience
+- Skills, certifications, activities, core strengths, and languages
+- Social media links
 - Contact form with fields for name, email, phone number, subject, and message
-- Profile picture stored locally in the project
+- Locally stored profile picture
 
 ## Built with
 
 - HTML5
 - Formspree for contact form submissions
+
+## Run locally
+
+1. Clone or download this repository.
+2. Open `index.html` in a web browser.
+
+The contact form requires a valid Formspree endpoint configured in `index.html`.
 
 ## Project structure
 
@@ -24,4 +33,3 @@ The contact form uses [Formspree](https://formspree.io/) to handle submissions a
 ├── README.md
 └── assets/
     └── profile-picture.jpg
-```
