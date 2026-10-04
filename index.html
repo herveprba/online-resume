@@ -22,6 +22,7 @@
                         <li><a href="#activities">Activities</a></li>
                         <li><a href="#core-strengths">Core Strengths</a></li>
                         <li><a href="#languages">Languages</a></li>
+                        <li><a href="#social-media">Social Media</a></li>
                     </ul>
                 </li>
                 <li><a href="#contact-me">Contact Me</a></li>
@@ -118,14 +119,46 @@
                     <li>Chinese &ndash; Limited working proficiency</li>
                 </ul>
             </article>
+            <article id="social-media">
+                <h2>Social Media</h2>
+                <ul>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/herveprba/" target="_blank" rel="noopener noreferrer">@herveprba</a></li>
+                    <li>Github: <a href="https://github.com/herveprba" target="_blank" rel="noopener noreferrer">@herveprba</a></li>
+                    <li>Discord: <a href="https://discord.com/users/834086522780909608" target="_blank" rel="noopener noreferrer">@herveprba</a></li>
+                </ul>
+            </article>
         </section>
     </main>
     <hr>
     <footer>
         <section id="contact-me">
             <h2>Contact Me</h2>
-            <form action="#">
-                
+            <form action="#" method="POST">
+                <div>
+                    <label for="full-name">Full Name</label><br>
+                    <input type="text" name="full-name" id="full-name" placeholder="e.g. John Doe" required>
+                </div>
+                <div>
+                    <label for="email-address">Email Address</label><br>
+                    <input type="email" name="email-address" id="email-address" placeholder="e.g. john.doe@email.com" required>
+                </div>
+                <div>
+                    <label for="phone-number">Phone Number</label><br>
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="e.g. +1 212-555-0123">
+                </div>
+                <div>
+                    <label for="subject">Subject</label><br>
+                    <select name="message-subject" id="message-subject" required>
+                        <option value="Full-time Job Offering" selected>Full-time Job Offering</option>
+                        <option value="Freelance Web Development Project">Freelance Web Development Project</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="messages">Messages</label><br>
+                    <textarea name="messages" id="messages" rows="5" cols="40" placeholder="Enter your message here..." required></textarea>
+                </div>
+                <input type="submit" value="Send">
             </form>
         </section>
         <p>Designed and developed by Herve Iuliano Natama Purba &copy; 2026</p>
